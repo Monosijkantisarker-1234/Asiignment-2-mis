@@ -1,0 +1,375 @@
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after
+   {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .c{
+      color:royalblue;
+      margin-left: 12%;
+      font-size: 30px;
+  }
+.p{
+    display: flex;
+}
+.margin{
+    margin-left: 35%;
+}
+.space{
+    margin-left:5%;
+}
+.img2{
+    margin-left:30%;
+}
+.q{
+    display: flex;
+}
+.sp2{
+    margin-left:5%;
+}
+.img3{
+    margin-left:20%;
+}
+.r{
+    display: flex;
+}
+.sp3{
+    margin-left:5%;
+}
+.s{
+    display: flex;
+}
+.margin1{
+    margin-left: 35%;
+}
+.space2{
+    margin-left:5%;
+}
+.img4{
+    margin-left:30%;
+}
+.u{
+    display: flex;
+}
+.sp2{
+    margin-left:5%;
+}
+.img5{
+    margin-left:20%;
+}
+.v{
+    display: flex;
+}
+.sp3{
+    margin-left:5%;
+}
+.t{
+    display: flex;
+}
+.d{
+    color:royalblue;
+    margin-left: 12%;
+    font-size: 30px
+}
+.pss{
+    margin-left:5%;
+    font-size: 180%;
+
+}
+.a{
+    display: flex;
+    font-size: 15px;
+    
+}
+.img6
+{
+    margin-left: 35%;
+
+}
+.b{
+    display: flex;
+    width:40%;
+    margin-left:300px;
+    padding: 20px;
+    font-size: 15px;
+    
+
+}
+.img7{
+    margin-left:20%;
+}
+.ps1{
+    margin-left:5%;
+    font-size: 180%;
+}
+
+
+
+}
+.pss{
+    margin-left:5%;
+    font-size: 180%;
+
+}
+.e{
+    display: flex;
+    font-size: 15px;
+    
+}
+.img8
+{
+    margin-left: 35%;
+
+}
+.f{
+    display: flex;
+    width:40%;
+    margin-left:300px;
+    
+    padding: 20px;
+    font-size: 15px;
+    
+
+}
+.img9{
+    margin-left:20%;
+}
+.ps2{
+    margin-left:5%;
+    font-size: 180%;
+}
+.as 
+{
+    margin-bottom: ;
+}
+.reed
+{
+    font-size: 20px;
+    color:tomato
+    
+}
+.yo
+{
+    font-size: 25px;
+}
+.jo
+{
+    font-size: 25px;
+}
+.need
+{
+    font-size: 20px;
+    color:tomato
+    
+}
+.go
+{
+    font-size: 25px;
+}
+.leed
+{
+    font-size: 20px;
+    color:tomato
+}
+.io
+{
+    display:flex;
+}
+.psu{
+    margin-left:5%;
+    font-size: 180%;
+}
+.checked {
+    color: orange;
+}
+.k 
+{
+    color:royalblue;
+      margin-left: 12%;
+      font-size: 30px;
+}
+.imo1
+{
+    margin-left: 30%;
+}
+.imo2
+{
+margin-left:30% ;
+}
+.imo3
+{
+margin-left:30% ;
+}
+.w 
+{
+   
+    color: gray;
+    display:flex;
+    margin-left:55%;
+    position: relative;
+    bottom: 35px;
+    font-size:17px;
+}
+.fafastarchecked
+{
+ letter-spacing left:10% ; 
+}
+.button1
+{
+    text-decoration: none;
+    background-color: rgb(243, 189, 189);
+    padding:5px;
+    border-radius: 5px;
+    color:tomato;
+    width: 65px;
+    height: 30px;
+    osition: relative;
+    bottom: 135px;
+    position: relative;
+    left: 310px;
+
+}
+.x
+{
+   
+    color: gray;
+    display:flex;
+    margin-left: 49%;
+    position: relative;
+      bottom: 60px;
+    
+}
+.l
+{
+   
+    color: gray;
+    display:flex;
+    margin-left: 49%;
+    position: relative;
+      bottom: 60px;
+    
+}
+  
+.button2
+{
+    text-decoration: none;
+    background-color: rgb(243, 189, 189);
+    padding:5px;
+    border-radius: 5px;
+    color:tomato;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    bottom: 80px;
+    position: relative;
+    left: 310px;
+
+}
+
+.button3
+{
+    text-decoration: none;
+    background-color: rgb(243, 189, 189);
+    padding:5px;
+    border-radius: 5px;
+    color:tomato;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    bottom: 136px;
+    position: relative;
+    left: 310px;
+}
+.zoo
+{
+    margin-left: 34%;
+}
+.moo
+{
+    margin-left: 34%;
+}
+.loo
+{
+    margin-left: 34%;
+}
+.waa
+{
+    color:rgb(214, 202, 202);
+}
+
+.baa
+{
+    color:rgb(214, 202, 202);
+}
+.maa
+{
+    color:rgb(214, 202, 202);
+}
+
+}
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 50px;
+        background-color:grey
+        padding: 10px;
+      }
+      
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+         padding: 20px 0;
+    
+      }
+      .row-section
+      {
+          margin-top:40 px;
+          display:grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap:20px;
+          margin-left: auto;
+          margin-right: auto;
+          width:70%;
+          justify-content: center;
+          align-content: stretch;
+      }
+      
+      /***********************
+      Media Queries for Mobile Phones:
+      ************************/
+      @media only screen and (max-width :688px){
+          .top section{
+            display:grid;
+            grid-template-columns:  1fr;
+            align-items: center;
+            background-color: mediumblue;
+            padding-top: 100px;
+            padding-bottom: 50px;
+          }
+      }
+      /***********************
+      Media Queries for Tabs:
+      ************************/
+      @media only screen and (max-width :992px)and (min-width:689px){
+        .top section{
+          display:grid;
+          grid-template-columns:repeat(2, 1fr);
+          align-items: center;
+          background-color: rgb(10, 10, 124);
+          padding-top: 100px;
+          padding-bottom: 50px;
+        }
+    }
